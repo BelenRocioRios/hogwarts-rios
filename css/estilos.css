@@ -1,0 +1,213 @@
+ body {
+     background-image: url(../img/velas\ castillo.jpg);
+     background-size: cover;
+ }
+
+
+
+
+
+
+ /* index */
+
+ .caja {
+     /*width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    background-color: aqua;
+    margin: 15px;
+    text-align: center;
+    line-height: 150px;     */
+ }
+
+
+
+ .layoutgrid {
+     display: grid;
+     grid-template-columns: auto 65%;
+     width: 100%;
+     margin: 0 auto;
+     padding: 10px;
+     border: 10px solid rgba(0, 0, 0, 0);
+ }
+
+
+ /* index -- header */
+ img {
+     padding: 15%;
+     display: block;
+     height: 150px;
+
+ }
+
+ .menu {
+     line-height: 50px;
+ }
+
+ .menu a {
+     color: white;
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px 15px;
+     line-height: normal;
+     font-size: 14px;
+     transition: all 500ms ease;
+     border-bottom: 4px solid rgb(79, 96, 252);
+ }
+
+ .menu a:hover {
+     color: rgb(79, 96, 252);
+ }
+
+
+ .c1 {
+     grid-column: 1/4;
+     background-color: rgba(0, 0, 0, 0.822);
+     padding: 0%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100%;
+ }
+
+
+
+
+
+ .c2 {
+     color: white;
+
+ }
+
+ .c3 {
+     background-color: rgba(0, 0, 0, 0.822);
+ }
+
+ .c3 h1 {
+     color: white;
+     text-align: center;
+ }
+
+ .c3 p {
+     color: white;
+     text-align: center;
+     padding: 60px;
+ }
+
+
+
+
+ /*footer*/
+ .caja-logo {
+     display: flex;
+     justify-content: center;
+     width: 50px;
+ }
+
+ .c4 {
+     grid-column: 1/4;
+     background-color: rgba(0, 0, 0, 0.822);
+
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     width: 100%;
+     padding: 1em 0;
+     position: absolute;
+ }
+
+
+ /*casas*/
+
+ .c5 {
+     padding: 50px;
+     background-color: rgba(0, 0, 0, 0.822);
+ }
+
+ .c6 {
+     padding: 50px;
+     background-color: rgba(0, 0, 0, 0.822);
+ }
+
+ .c7 {
+     padding: 50px;
+     background-color: rgba(0, 0, 0, 0.822);
+ }
+
+ .c8 {
+     padding: 50px;
+     background-color: rgba(0, 0, 0, 0.822);
+ }
+
+
+
+
+
+
+
+ /* inscripciones*/
+ .contenedor .form1 .form2 .form-title {
+     font-weight: normal;
+     font-family: sans-serif;
+     color: rgb(15, 11, 240);
+     text-align: center;
+     padding: 14px 0px;
+
+
+ }
+
+ .contenedor .form1 .form2 .form-title span {
+     color: blanchedalmond;
+ }
+
+ .contenedor .form1 {
+     background-color: rgba(0, 0, 0, 0.822) ;
+     width: 90%;
+     max-width: 650px;
+     margin: auto;
+     padding: 5px 35px;
+     margin-top: 30px;
+     padding-bottom: 30px;
+     border-radius: 3px;
+ }
+
+ .contenedor .form1 .form-label {
+     display: flex;
+     color: rgb(232, 240, 240);
+     font-size: 16px;
+     font-family: Roboto;
+     position: relative;
+ }
+
+ .contenedor .form1 .form-input, .form-textarea{
+     background: rgb(213, 214, 226);
+     border: none;
+     outline: none;
+     border-bottom: 2px solid black;
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 20px;
+     border-radius: 2px;
+     font-size: 14px;
+     color: rgb(231, 12, 213);
+     font-family: roboto;
+    
+ }
+
+ .contenedor .form1 .btn-submit{
+     width: 100%;
+     font-family: roboto;
+     outline: none;
+     background: #100799;
+     font-size: 16px;
+     border: none;
+     color: #fff;
+     padding: 15px 0;
+     cursor: pointer;
+     transition: all.5s ease;
+ }
+
+ .contenedor .form1 .btn-submit:hover{
+     background-color: rgb(123, 123, 202);
+
+ }
