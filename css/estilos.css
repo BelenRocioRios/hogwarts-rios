@@ -40,6 +40,8 @@
 
  }
 
+
+
  .menu {
      line-height: 50px;
  }
@@ -102,6 +104,7 @@
      display: flex;
      justify-content: center;
      width: 50px;
+     ;
  }
 
  .c4 {
@@ -145,6 +148,7 @@
 
 
 
+
  /* inscripciones*/
  .contenedor .form1 .form2 .form-title {
      font-weight: normal;
@@ -161,7 +165,7 @@
  }
 
  .contenedor .form1 {
-     background-color: rgba(0, 0, 0, 0.822) ;
+     background-color: rgba(0, 0, 0, 0.822);
      width: 90%;
      max-width: 650px;
      margin: auto;
@@ -179,7 +183,8 @@
      position: relative;
  }
 
- .contenedor .form1 .form-input, .form-textarea{
+ .contenedor .form1 .form-input,
+ .form-textarea {
      background: rgb(213, 214, 226);
      border: none;
      outline: none;
@@ -191,10 +196,10 @@
      font-size: 14px;
      color: rgb(231, 12, 213);
      font-family: roboto;
-    
+
  }
 
- .contenedor .form1 .btn-submit{
+ .contenedor .form1 .btn-submit {
      width: 100%;
      font-family: roboto;
      outline: none;
@@ -207,7 +212,26 @@
      transition: all.5s ease;
  }
 
- .contenedor .form1 .btn-submit:hover{
+ .contenedor .form1 .btn-submit:hover {
      background-color: rgb(123, 123, 202);
 
+ }
+
+ /*animaciones*/
+
+
+ .caja-logo {
+     animation-duration: 5s;
+     animation-name: escudos;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes escudos {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+
+     }
  }
